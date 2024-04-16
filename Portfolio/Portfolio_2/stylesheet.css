@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body{
+    background-image: url("/");
+}
+
+h1{
+    font-family: "Lora", serif;
+}
+h2{
+    font-family: "Lora", serif;
+}
+img{
+    height: 300px;
+    display: grid;
+    border-radius: 20px;
+}
+.innerGal ul li a {
+    
+    text-decoration: none;
+}
+
+

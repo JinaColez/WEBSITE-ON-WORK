@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(Assets/Background_Image/gradient1.png);
+    background-attachment: scroll;
+   
+    
+}
+
+#mainMenu{
+    width: 100%;
+    position: relative;
+}
+
+.userLogo img{
+    height: 300px;
+}
+
+.userLogo{
+    height: 20px;
+    position: fixed;
+    left: 43%;
+    bottom: 107%;
+}
+.userLogo img:hover{
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.innerMainMenu{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.innerMainMenu ul{
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ text-align: right;
+    
+}
+
+.innerMainMenu ul li{
+    float: none;display: inline-block;
+
+}
+
+.innerMainMenu ul li:nth-child(1) {
+    float: left;
+}
+.innerMainMenu ul li:nth-child(2) {
+    float: left;
+}
+
+
+.innerMainMenu ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    padding: 50px 40px ;
+    font-size: 30px;
+    font-family: Sprite Graffiti, sans-serif;
+}
+
+.innerMainMenu ul li a:hover{
+    color: rgb(255, 255, 255);
+    transition: 0.7s;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+.logos{
+    overflow: hidden;
+    padding: 60px 0;
+    white-space: nowrap;
+    position: relative;
+}
+.logos::before,
+.logos::after{
+position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+
+
+.logos-slide{
+    display: inline-block;
+
+    animation: 55s slide infinite linear;
+}
+
+.logos-slide img{
+    height: 20vh;
+    margin: 0 40px;
+}
+
+.div1{
+    
+}
